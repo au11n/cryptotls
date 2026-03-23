@@ -11,8 +11,6 @@ import (
 	"crypto/des"
 	"crypto/hmac"
 	"cryptotls/internal/boring"
-	fipsaes "cryptotls/internal/fips140/aes"
-	"cryptotls/internal/fips140/aes/gcm"
 	"crypto/rc4"
 	"crypto/sha1"
 	"crypto/sha256"
@@ -527,7 +525,7 @@ func aeadAESGCM(key, noncePrefix []byte) aead {
 		aead, err = boring.NewGCMTLS(aes)
 	} else {
 		boring.Unreachable()
-		aead, err = gcm.NewGCMForTLS12(aes.(*fipsaes.Block))
+		aead, err = cipher.NewGCM(aes)
 	}
 	if err != nil {
 		panic(err)
@@ -561,7 +559,7 @@ func aeadAESGCMTLS13(key, nonceMask []byte) aead {
 		aead, err = boring.NewGCMTLS13(aes)
 	} else {
 		boring.Unreachable()
-		aead, err = gcm.NewGCMForTLS13(aes.(*fipsaes.Block))
+		aead, err = cipher.NewGCM(aes)
 	}
 	if err != nil {
 		panic(err)
