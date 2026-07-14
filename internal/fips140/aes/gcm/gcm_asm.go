@@ -7,10 +7,10 @@
 package gcm
 
 import (
-	"cryptotls/internal/fips140/aes"
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140/aes"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 // The following functions are defined in gcm_*.s.

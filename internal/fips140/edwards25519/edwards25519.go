@@ -5,8 +5,8 @@
 package edwards25519
 
 import (
-	_ "cryptotls/internal/fips140/check"
-	"cryptotls/internal/fips140/edwards25519/field"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140/edwards25519/field"
 	"errors"
 )
 

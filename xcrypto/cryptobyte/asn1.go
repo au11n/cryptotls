@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"time"
 
-	"cryptotls/xcrypto/cryptobyte/asn1"
+	"github.com/au11n/cryptotls/xcrypto/cryptobyte/asn1"
 )
 
 // This file contains ASN.1-related methods for String and Builder.

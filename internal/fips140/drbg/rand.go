@@ -9,10 +9,10 @@
 package drbg
 
 import (
-	"cryptotls/internal/entropy"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/randutil"
-	"cryptotls/internal/sysrand"
+	"github.com/au11n/cryptotls/internal/entropy"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/randutil"
+	"github.com/au11n/cryptotls/internal/sysrand"
 	"io"
 	"sync"
 )

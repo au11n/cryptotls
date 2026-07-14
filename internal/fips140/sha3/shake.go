@@ -6,8 +6,8 @@ package sha3
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"math/bits"
 )

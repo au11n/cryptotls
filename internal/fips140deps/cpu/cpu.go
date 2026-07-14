@@ -5,8 +5,8 @@
 package cpu
 
 import (
-	"cryptotls/stubs/cpu"
-	"cryptotls/stubs/goarch"
+	"github.com/au11n/cryptotls/stubs/cpu"
+	"github.com/au11n/cryptotls/stubs/goarch"
 )
 
 const (

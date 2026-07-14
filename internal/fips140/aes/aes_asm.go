@@ -7,9 +7,9 @@
 package aes
 
 import (
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/fips140deps/godebug"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/fips140deps/godebug"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 //go:noescape

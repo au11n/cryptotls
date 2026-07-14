@@ -5,7 +5,7 @@
 package tls
 
 import (
-	"cryptotls/stubs/godebug"
+	"github.com/au11n/cryptotls/stubs/godebug"
 	"slices"
 	_ "unsafe" // for linkname
 )

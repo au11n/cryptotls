@@ -5,10 +5,10 @@
 package tls12
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/hmac"
-	"cryptotls/internal/fips140/sha256"
-	"cryptotls/internal/fips140/sha512"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/hmac"
+	"github.com/au11n/cryptotls/internal/fips140/sha256"
+	"github.com/au11n/cryptotls/internal/fips140/sha512"
 	"hash"
 )
 

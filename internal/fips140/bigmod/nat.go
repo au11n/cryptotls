@@ -5,8 +5,8 @@
 package bigmod
 
 import (
-	_ "cryptotls/internal/fips140/check"
-	"cryptotls/internal/fips140deps/byteorder"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"math/bits"
 )

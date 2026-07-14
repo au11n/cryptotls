@@ -7,8 +7,8 @@
 package sha512
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"hash"
 )

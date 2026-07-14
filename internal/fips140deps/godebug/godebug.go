@@ -5,7 +5,7 @@
 package godebug
 
 import (
-	"cryptotls/stubs/godebug"
+	"github.com/au11n/cryptotls/stubs/godebug"
 )
 
 type Setting godebug.Setting

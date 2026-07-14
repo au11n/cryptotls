@@ -5,7 +5,7 @@
 package fips140
 
 import (
-	"cryptotls/internal/fips140deps/godebug"
+	"github.com/au11n/cryptotls/internal/fips140deps/godebug"
 	"errors"
 	"runtime"
 )

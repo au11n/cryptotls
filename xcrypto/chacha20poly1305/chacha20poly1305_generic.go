@@ -7,9 +7,9 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"cryptotls/xcrypto/chacha20"
-	"cryptotls/xcrypto/internal/alias"
-	"cryptotls/xcrypto/internal/poly1305"
+	"github.com/au11n/cryptotls/xcrypto/chacha20"
+	"github.com/au11n/cryptotls/xcrypto/internal/alias"
+	"github.com/au11n/cryptotls/xcrypto/internal/poly1305"
 )
 
 func writeWithPadding(p *poly1305.MAC, b []byte) {

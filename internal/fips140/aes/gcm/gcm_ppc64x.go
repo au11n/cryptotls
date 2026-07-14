@@ -7,11 +7,11 @@
 package gcm
 
 import (
-	"cryptotls/internal/fips140/aes"
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/byteorder"
-	"cryptotls/internal/fips140deps/godebug"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140/aes"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140deps/godebug"
+	"github.com/au11n/cryptotls/internal/impl"
 	"runtime"
 )
 

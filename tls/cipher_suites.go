@@ -10,17 +10,17 @@ import (
 	"crypto/cipher"
 	"crypto/des"
 	"crypto/hmac"
-	"cryptotls/internal/boring"
+	"github.com/au11n/cryptotls/internal/boring"
 	"crypto/rc4"
 	"crypto/sha1"
 	"crypto/sha256"
 	"fmt"
 	"hash"
-	"cryptotls/stubs/cpu"
+	"github.com/au11n/cryptotls/stubs/cpu"
 	"runtime"
 	_ "unsafe" // for linkname
 
-	"cryptotls/xcrypto/chacha20poly1305"
+	"github.com/au11n/cryptotls/xcrypto/chacha20poly1305"
 )
 
 // CipherSuite is a TLS cipher suite. Note that most functions in this package

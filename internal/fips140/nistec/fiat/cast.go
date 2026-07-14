@@ -4,4 +4,4 @@
 
 package fiat
 
-import _ "cryptotls/internal/fips140/check"
+import _ "github.com/au11n/cryptotls/internal/fips140/check"

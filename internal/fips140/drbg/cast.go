@@ -6,8 +6,8 @@ package drbg
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	_ "cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
 	"errors"
 )
 

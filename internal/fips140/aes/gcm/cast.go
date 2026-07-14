@@ -5,9 +5,9 @@
 package gcm
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/aes"
-	_ "cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/aes"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
 	"errors"
 )
 

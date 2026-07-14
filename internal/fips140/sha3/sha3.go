@@ -11,8 +11,8 @@
 package sha3
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
 	"errors"
 )
 

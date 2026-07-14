@@ -7,8 +7,8 @@ package tls
 import (
 	"crypto/ecdh"
 	"crypto/hmac"
-	"cryptotls/internal/fips140/mlkem"
-	"cryptotls/internal/fips140/tls13"
+	"github.com/au11n/cryptotls/internal/fips140/mlkem"
+	"github.com/au11n/cryptotls/internal/fips140/tls13"
 	"errors"
 	"hash"
 	"io"

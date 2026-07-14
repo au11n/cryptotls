@@ -5,8 +5,8 @@
 package mlkem
 
 import (
-	"cryptotls/internal/fips140/sha3"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140/sha3"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 )
 

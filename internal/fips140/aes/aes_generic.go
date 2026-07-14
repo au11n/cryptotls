@@ -36,7 +36,7 @@
 
 package aes
 
-import "cryptotls/internal/fips140deps/byteorder"
+import "github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 
 // Encrypt one block from src into dst, using the expanded key xk.
 func encryptBlockGeneric(c *blockExpanded, dst, src []byte) {

@@ -7,8 +7,8 @@
 package aes
 
 import (
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 )
 
 func ctrBlocks1(b *Block, dst, src *[BlockSize]byte, ivlo, ivhi uint64) {

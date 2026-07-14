@@ -6,9 +6,9 @@ package ecdsa
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	_ "cryptotls/internal/fips140/check"
-	"cryptotls/internal/fips140/sha512"
+	"github.com/au11n/cryptotls/internal/fips140"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140/sha512"
 	"errors"
 	"sync"
 )

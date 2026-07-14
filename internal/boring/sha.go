@@ -59,7 +59,7 @@ import "C"
 import (
 	"errors"
 	"hash"
-	"cryptotls/stubs/byteorder"
+	"github.com/au11n/cryptotls/stubs/byteorder"
 	"unsafe"
 )
 

@@ -7,10 +7,10 @@
 package nistec
 
 import (
-	"cryptotls/internal/fips140/nistec/fiat"
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/byteorder"
-	"cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/fips140/nistec/fiat"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
 	"errors"
 	"math/bits"
 	"sync"

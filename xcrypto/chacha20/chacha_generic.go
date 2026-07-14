@@ -12,7 +12,7 @@ import (
 	"errors"
 	"math/bits"
 
-	"cryptotls/xcrypto/internal/alias"
+	"github.com/au11n/cryptotls/xcrypto/internal/alias"
 )
 
 const (

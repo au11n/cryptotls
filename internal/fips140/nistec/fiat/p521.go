@@ -7,7 +7,7 @@
 package fiat
 
 import (
-	"cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
 	"errors"
 )
 

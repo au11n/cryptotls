@@ -5,7 +5,7 @@
 package subtle
 
 import (
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"math/bits"
 )
 

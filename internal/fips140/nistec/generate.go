@@ -140,8 +140,8 @@ const tmplNISTEC = `// Copyright 2022 The Go Authors. All rights reserved.
 package nistec
 
 import (
-	"cryptotls/internal/fips140/nistec/fiat"
-	"cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140/nistec/fiat"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
 	"errors"
 	"sync"
 )

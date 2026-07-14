@@ -7,8 +7,8 @@
 package bigmod
 
 import (
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 // amd64 assembly uses ADCX/ADOX/MULX if ADX is available to run two carry

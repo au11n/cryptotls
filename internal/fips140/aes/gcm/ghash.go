@@ -5,8 +5,8 @@
 package gcm
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 )
 
 // gcmFieldElement represents a value in GF(2¹²⁸). In order to reflect the GCM

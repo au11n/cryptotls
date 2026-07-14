@@ -15,7 +15,7 @@ import (
 	"errors"
 	"fmt"
 	"hash"
-	"cryptotls/stubs/godebug"
+	"github.com/au11n/cryptotls/stubs/godebug"
 	"io"
 	"net"
 	"sync"

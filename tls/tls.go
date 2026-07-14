@@ -34,7 +34,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"cryptotls/stubs/godebug"
+	"github.com/au11n/cryptotls/stubs/godebug"
 	"net"
 	"os"
 	"strings"

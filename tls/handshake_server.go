@@ -11,7 +11,7 @@ import (
 	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/subtle"
-	"cryptotls/tls/internal/fips140tls"
+	"github.com/au11n/cryptotls/tls/internal/fips140tls"
 	"crypto/x509"
 	"errors"
 	"fmt"

@@ -1,4 +1,4 @@
-module cryptotls
+module github.com/au11n/cryptotls
 
 go 1.25.5
 

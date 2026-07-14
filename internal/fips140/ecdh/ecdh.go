@@ -6,10 +6,10 @@ package ecdh
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/drbg"
-	"cryptotls/internal/fips140/nistec"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/drbg"
+	"github.com/au11n/cryptotls/internal/fips140/nistec"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"io"
 	"math/bits"

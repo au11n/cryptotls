@@ -8,7 +8,7 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"cryptotls/xcrypto/chacha20"
+	"github.com/au11n/cryptotls/xcrypto/chacha20"
 )
 
 type xchacha20poly1305 struct {

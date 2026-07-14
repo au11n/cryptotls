@@ -5,10 +5,10 @@
 package aes
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/alias"
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/alias"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"math/bits"
 )
 

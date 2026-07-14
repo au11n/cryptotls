@@ -9,7 +9,7 @@ package boring
 import (
 	"crypto"
 	"crypto/cipher"
-	"cryptotls/internal/boring/sig"
+	"github.com/au11n/cryptotls/internal/boring/sig"
 	"hash"
 )
 

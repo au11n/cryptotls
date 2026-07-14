@@ -7,9 +7,9 @@
 package ecdsa
 
 import (
-	"cryptotls/internal/fips140/bigmod"
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140/bigmod"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/impl"
 	"errors"
 )
 

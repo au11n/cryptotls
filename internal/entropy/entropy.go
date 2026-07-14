@@ -17,7 +17,7 @@
 // [earlier version]: https://csrc.nist.gov/CSRC/media/Projects/cryptographic-module-validation-program/documents/IG%209.3.A%20Resolution%202b%5BMarch%2026%202024%5D.pdf
 package entropy
 
-import "cryptotls/internal/sysrand"
+import "github.com/au11n/cryptotls/internal/sysrand"
 
 // Depleted notifies the entropy source that the entropy in the module is
 // "depleted" and provides the callback for the LOAD command.

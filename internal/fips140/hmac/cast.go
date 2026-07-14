@@ -6,8 +6,8 @@ package hmac
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/sha256"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/sha256"
 	"errors"
 )
 

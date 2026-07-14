@@ -5,7 +5,7 @@
 package edwards25519
 
 import (
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"math/bits"
 )

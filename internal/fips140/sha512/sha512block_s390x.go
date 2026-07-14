@@ -7,8 +7,8 @@
 package sha512
 
 import (
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 var useSHA512 = cpu.S390XHasSHA512

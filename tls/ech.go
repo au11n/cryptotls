@@ -6,13 +6,13 @@ package tls
 
 import (
 	"bytes"
-	"cryptotls/internal/hpke"
+	"github.com/au11n/cryptotls/internal/hpke"
 	"errors"
 	"fmt"
 	"slices"
 	"strings"
 
-	"cryptotls/xcrypto/cryptobyte"
+	"github.com/au11n/cryptotls/xcrypto/cryptobyte"
 )
 
 // sortedSupportedAEADs is just a sorted version of hpke.SupportedAEADS.

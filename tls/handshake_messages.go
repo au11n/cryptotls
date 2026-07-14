@@ -10,7 +10,7 @@ import (
 	"slices"
 	"strings"
 
-	"cryptotls/xcrypto/cryptobyte"
+	"github.com/au11n/cryptotls/xcrypto/cryptobyte"
 )
 
 // The marshalingFunction type is an adapter to allow the use of ordinary

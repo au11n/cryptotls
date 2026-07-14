@@ -5,9 +5,9 @@
 package rsa
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/bigmod"
-	"cryptotls/internal/fips140/drbg"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/bigmod"
+	"github.com/au11n/cryptotls/internal/fips140/drbg"
 	"errors"
 	"io"
 )

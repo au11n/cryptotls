@@ -5,7 +5,7 @@
 package byteorder
 
 import (
-	"cryptotls/stubs/byteorder"
+	"github.com/au11n/cryptotls/stubs/byteorder"
 )
 
 func LEUint16(b []byte) uint16 {

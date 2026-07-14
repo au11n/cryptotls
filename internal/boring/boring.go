@@ -14,10 +14,10 @@ package boring
 */
 import "C"
 import (
-	"cryptotls/internal/boring/sig"
-	_ "cryptotls/internal/boring/syso"
-	"cryptotls/internal/fips140"
-	"cryptotls/stubs/stringslite"
+	"github.com/au11n/cryptotls/internal/boring/sig"
+	_ "github.com/au11n/cryptotls/internal/boring/syso"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/stubs/stringslite"
 	"math/bits"
 	"unsafe"
 )

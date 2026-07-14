@@ -6,9 +6,9 @@
 package field
 
 import (
-	_ "cryptotls/internal/fips140/check"
-	"cryptotls/internal/fips140/subtle"
-	"cryptotls/internal/fips140deps/byteorder"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"errors"
 	"math/bits"
 )

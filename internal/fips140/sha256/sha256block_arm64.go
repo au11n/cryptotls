@@ -7,8 +7,8 @@
 package sha256
 
 import (
-	"cryptotls/internal/fips140deps/cpu"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140deps/cpu"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 var useSHA2 = cpu.ARM64HasSHA2

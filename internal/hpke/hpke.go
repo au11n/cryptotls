@@ -12,10 +12,10 @@ import (
 	"crypto/hkdf"
 	"crypto/rand"
 	"errors"
-	"cryptotls/stubs/byteorder"
+	"github.com/au11n/cryptotls/stubs/byteorder"
 	"math/bits"
 
-	"cryptotls/xcrypto/chacha20poly1305"
+	"github.com/au11n/cryptotls/xcrypto/chacha20poly1305"
 )
 
 // testingOnlyGenerateKey is only used during testing, to provide

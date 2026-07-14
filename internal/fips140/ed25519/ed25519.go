@@ -6,10 +6,10 @@ package ed25519
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/drbg"
-	"cryptotls/internal/fips140/edwards25519"
-	"cryptotls/internal/fips140/sha512"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/drbg"
+	"github.com/au11n/cryptotls/internal/fips140/edwards25519"
+	"github.com/au11n/cryptotls/internal/fips140/sha512"
 	"errors"
 	"strconv"
 )

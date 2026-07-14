@@ -189,7 +189,7 @@ func bigBytesECDH(curve string, big *C.GO_BIGNUM) ([]byte, error) {
 func curveSize(curve string) int {
 	switch curve {
 	default:
-		panic("cryptotls/internal/boring: unknown curve " + curve)
+		panic("github.com/au11n/cryptotls/internal/boring: unknown curve " + curve)
 	case "P-256":
 		return 256 / 8
 	case "P-384":

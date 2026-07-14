@@ -7,8 +7,8 @@
 package tls13
 
 import (
-	"cryptotls/internal/fips140/hkdf"
-	"cryptotls/internal/fips140deps/byteorder"
+	"github.com/au11n/cryptotls/internal/fips140/hkdf"
+	"github.com/au11n/cryptotls/internal/fips140deps/byteorder"
 	"hash"
 )
 

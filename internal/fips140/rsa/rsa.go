@@ -6,8 +6,8 @@ package rsa
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/bigmod"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/bigmod"
 	"errors"
 )
 

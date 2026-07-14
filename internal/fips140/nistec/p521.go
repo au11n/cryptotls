@@ -7,8 +7,8 @@
 package nistec
 
 import (
-	"cryptotls/internal/fips140/nistec/fiat"
-	"cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140/nistec/fiat"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
 	"errors"
 	"sync"
 )

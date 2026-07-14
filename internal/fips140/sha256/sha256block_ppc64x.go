@@ -7,8 +7,8 @@
 package sha256
 
 import (
-	"cryptotls/internal/fips140deps/godebug"
-	"cryptotls/internal/impl"
+	"github.com/au11n/cryptotls/internal/fips140deps/godebug"
+	"github.com/au11n/cryptotls/internal/impl"
 )
 
 // The POWER architecture doesn't have a way to turn off SHA-2 support at

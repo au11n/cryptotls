@@ -5,8 +5,8 @@
 package gcm
 
 import (
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/aes"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/aes"
 )
 
 // CounterKDF implements a KDF in Counter Mode instantiated with CMAC-AES,

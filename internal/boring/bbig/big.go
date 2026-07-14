@@ -5,7 +5,7 @@
 package bbig
 
 import (
-	"cryptotls/internal/boring"
+	"github.com/au11n/cryptotls/internal/boring"
 	"math/big"
 	"unsafe"
 )

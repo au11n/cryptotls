@@ -9,12 +9,12 @@ package rsa
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/drbg"
-	"cryptotls/internal/fips140/sha256"
-	"cryptotls/internal/fips140/sha3"
-	"cryptotls/internal/fips140/sha512"
-	"cryptotls/internal/fips140/subtle"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/drbg"
+	"github.com/au11n/cryptotls/internal/fips140/sha256"
+	"github.com/au11n/cryptotls/internal/fips140/sha3"
+	"github.com/au11n/cryptotls/internal/fips140/sha512"
+	"github.com/au11n/cryptotls/internal/fips140/subtle"
 	"errors"
 	"hash"
 	"io"

@@ -14,7 +14,7 @@ import (
 	"errors"
 	"io"
 
-	"cryptotls/xcrypto/cryptobyte"
+	"github.com/au11n/cryptotls/xcrypto/cryptobyte"
 )
 
 // A SessionState is a resumable session.

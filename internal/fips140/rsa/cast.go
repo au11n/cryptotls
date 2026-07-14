@@ -6,9 +6,9 @@ package rsa
 
 import (
 	"bytes"
-	"cryptotls/internal/fips140"
-	"cryptotls/internal/fips140/bigmod"
-	_ "cryptotls/internal/fips140/check"
+	"github.com/au11n/cryptotls/internal/fips140"
+	"github.com/au11n/cryptotls/internal/fips140/bigmod"
+	_ "github.com/au11n/cryptotls/internal/fips140/check"
 	"errors"
 	"sync"
 )

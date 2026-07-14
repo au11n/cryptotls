@@ -4,7 +4,7 @@
 
 package subtle
 
-import "cryptotls/internal/fips140/alias"
+import "github.com/au11n/cryptotls/internal/fips140/alias"
 
 // XORBytes sets dst[i] = x[i] ^ y[i] for all i < n = min(len(x), len(y)),
 // returning n, the number of bytes written to dst.
